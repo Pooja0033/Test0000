@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Devil-Botz/Elsa.git /Elsa
+  git clone https://github.com/Pooja0033/Test0000.git /Test0000
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Elsa
+  git clone $UPSTREAM_REPO /Test0000
 fi
 cd /Elsa
 pip3 install -U -r requirements.txt
